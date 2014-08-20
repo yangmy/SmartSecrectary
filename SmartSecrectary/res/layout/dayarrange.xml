@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:background="@color/Silver"
+    android:paddingTop="30dp">
+
+    <LinearLayout
+       	style="@style/datearrangeitem"
+        >
+        <ImageView android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/create_contact"
+            android:layout_gravity="center_vertical"		
+            />
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datearrange_create"
+                android:textSize="20dp"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datearrange_createdescription"
+                android:textColor="@color/Silver"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+       	style="@style/datearrangeitem"
+       	android:layout_marginTop="30dp"
+        >
+        <ImageView android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/create_contact"
+            android:layout_gravity="center_vertical"		
+            />
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datearrange_edit"
+                android:textSize="20dp"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datearrange_eidtdescription"
+                android:textColor="@color/Silver"
+                />
+        </LinearLayout>
+    </LinearLayout>
+      <LinearLayout
+       	style="@style/datearrangeitem"
+       	android:layout_marginTop="30dp"
+        >
+        <ImageView android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/create_contact"
+            android:layout_gravity="center_vertical"		
+            />
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datearrange_create"
+                android:textSize="20dp"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datearrange_createdescription"
+                android:textColor="@color/Silver"
+                />
+        </LinearLayout>
+    </LinearLayout>
+      
+        <LinearLayout
+       	style="@style/datearrangeitem"
+       	android:layout_marginTop="30dp"
+        >
+        <ImageView android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/create_contact"
+            android:layout_gravity="center_vertical"		
+            />
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datearrange_create"
+                android:textSize="20dp"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datearrange_createdescription"
+                android:textColor="@color/Silver"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

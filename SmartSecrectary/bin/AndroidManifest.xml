@@ -12,6 +12,17 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
+        <activity android:name="com.jojo.main.activity.MaintActivity">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.jojo.main.activity.Test"></activity>
+        
+        <activity android:name="com.jojo.dayarrange.activity.DayArrangeActivity"></activity>
+        
     </application>
 
 </manifest>
