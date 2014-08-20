@@ -21,7 +21,7 @@
         </activity>
         <activity android:name="com.jojo.main.activity.Test"></activity>
         
-        <activity android:name="com.jojo.dayarrange.activity.DayArrangeActivity"></activity>
+        <activity android:name="com.jojo.dayarrange.activity.DateArrangeActivity"></activity>
         
     </application>
 

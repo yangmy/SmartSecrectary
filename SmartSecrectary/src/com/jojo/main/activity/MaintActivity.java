@@ -1,7 +1,7 @@
 package com.jojo.main.activity;
 
 import com.example.smartsecrectary.R;
-import com.jojo.dayarrange.activity.DayArrangeActivity;
+import com.jojo.dayarrange.activity.DateArrangeActivity;
 
 import android.app.Activity;
 import android.app.TabActivity;
@@ -19,7 +19,7 @@ public class MaintActivity extends TabActivity{
 		setContentView(R.layout.main_activity);
 		mTabHost=getTabHost();
 	
-		mTabHost.addTab(buildTabSpec(mTabHost, "dayArrange", "日程安排", new Intent(this,DayArrangeActivity.class)));
+		mTabHost.addTab(buildTabSpec(mTabHost, "dayArrange", "日程安排", new Intent(this,DateArrangeActivity.class)));
 		mTabHost.addTab(buildTabSpec(mTabHost, "clockWarn", "定时提醒", new Intent(this,Test.class)));
 		mTabHost.addTab(buildTabSpec(mTabHost, "everydayGrade", "每日评分", new Intent(this,Test.class)));
 		mTabHost.addTab(buildTabSpec(mTabHost, "personalSet", "个人设置", new Intent(this,Test.class)));

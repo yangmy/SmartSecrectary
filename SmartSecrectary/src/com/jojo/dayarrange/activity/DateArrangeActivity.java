@@ -5,7 +5,7 @@ import com.example.smartsecrectary.R;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class DayArrangeActivity extends Activity{
+public class DateArrangeActivity extends Activity{
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
