@@ -8,6 +8,7 @@
     android:paddingTop="30dp">
 
     <LinearLayout
+        android:id="@+id/createdatearrange"
        	style="@style/datearrangeitem"
         >
         <ImageView android:layout_width="70dp"
