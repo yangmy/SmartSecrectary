@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="datearrange_create">创建日程</string>
+    <string name="app_name">时间梭</string>
+    <string name="datearrange_create">管理事件</string>
     <string name="datearrange_createdescription">赶快管理你的时间吧，让时间充分利用起来！</string>
     <string name="datearrange_edit">修改日程</string>
     <string name="datearrange_eidtdescription">有神马新的想法，来吧！改变吧！</string>
+	<string name="datearrange">时间梭</string>
 </resources>

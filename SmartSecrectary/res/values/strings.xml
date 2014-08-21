@@ -1,8 +1,9 @@
 <resources>
 
     <string name="app_name">SmartSecrectary</string>
-	<string name="datearrange_create">CreateDateArrange</string>
+	<string name="datearrange_create">CreateSomethings</string>
 	<string name="datearrange_createdescription">Create your dateArrrange,good use your time!</string>
 	<string name="datearrange_edit">EditDateArrange</string>
 	<string name="datearrange_eidtdescription">if you have new idea,change your arrange.</string>
+	<string name="datearrange">Date Arrange</string>
 </resources>
